@@ -16,7 +16,7 @@ public class Demo extends JPanel implements ActionListener {
 
 		public Demo(){
 			super();
-			this.model = new DrawingModel(40); //40 circles, 10 for each person in group
+			this.model = new DrawingModel(50); //50 circles, 10 for each person in group plus the 10 of the original CircleShape
 		}
 
     /**
