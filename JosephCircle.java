@@ -2,7 +2,10 @@ package pa03;
 import java.util.ArrayList;
 import java.awt.Color;
 
-
+/**
+* JosephCircle creates yellow circles which bounce around the screen, off the walls, and off other JosephCircle objects
+* The circles turn a darker yellow during the frames during which they collide with other JosephCircle objects
+*/
 public class JosephCircle extends CircleShape{
 
   public static ArrayList<JosephCircle> JSbuffer;
