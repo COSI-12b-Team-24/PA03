@@ -8,7 +8,7 @@ import java.awt.Color;
 */
 public class JosephCircle extends CircleShape{
 
-  public static ArrayList<JosephCircle> JSbuffer;
+  public static ArrayList<JosephCircle> JSbuffer; //JosephCircle collision buffer
 
   private static Color DEFAULT_COL= new Color(255,255,70,100);
   private static Color COLLIDE_COL= new Color(85,85,70/3,100);
