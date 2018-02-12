@@ -33,20 +33,23 @@ public class DrawingModel {
 			// WHEN YOU ADD ANOTHER SUBCLASS OF CIRCLESHAPE YOU NEED TO
 			// CREATE IT AND ADD IT TO MODEL
 
-      c = new JosephCircle();
-      this.add(c);
+	c = new CircleShape();
+    	this.add(c);
+			
+      	c = new JosephCircle();
+      	this.add(c);
 
-			//TODO: Person #2 circle extension
-			// c = new CircleShape();
-      // this.add(c);
+	//TODO: Person #2 circle extension
+	// c = new CircleShape();
+      	// this.add(c);
 
-			//TODO: Person #3 circle extension
-			// c = new CircleShape();
-      // this.add(c);
+	//TODO: Person #3 circle extension
+	// c = new CircleShape();
+      	// this.add(c);
 
-			//TODO: Person #2 circle extension
-			// c = new CircleShape();
-      // this.add(c);
+	//TODO: Person #4 circle extension
+	// c = new CircleShape();
+      	// this.add(c);
 
 		}
 	}
