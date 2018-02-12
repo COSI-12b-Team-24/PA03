@@ -1,10 +1,13 @@
+package pa03;
+import java.awt.Color;
+
 public class BingyangShape extends CircleShape {
-  public double borderColor;
+  public Color borderColor;
 
   public BingyangShape( double x, double y, int radius){
     super(x, y, radius);
     this.color = new Color(100,100,100,100);
-    this.borderColor = new Color(100*Math.random() + 50*Math.random, 100*Math.random() + 50*Math.random, 100*Math.random() + 50*Math.random, 100*Math.random() + 50*Math.random);//generate random color for the border
+    this.borderColor = new Color((int)(100*Math.random() + 50*Math.random()), (int)(100*Math.random() + 50*Math.random()), (int)(100*Math.random() + 50*Math.random()), (int)(100*Math.random() + 50*Math.random()));//generate random color for the border
   }
 
   public void keepOnBoard(){       //the new keepOnBoard method, the circles would stop once they hit the border of the panel
