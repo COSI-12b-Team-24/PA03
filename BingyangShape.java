@@ -1,13 +1,15 @@
-public class BingyangShape extends CircleShape {
-  public double borderColor;
+package pa03;
 
-  public BingyangShape( double x, double y, int radius){
-    super(x, y, radius);
-    this.color = new Color(100,100,100,100);
-    this.borderColor = new Color(100*Math.random() + 50*Math.random, 100*Math.random() + 50*Math.random, 100*Math.random() + 50*Math.random, 100*Math.random() + 50*Math.random);//generate random color for the border
+public class BingyangShape extends CircleShape {
+  public java.awt.Color borderColor;
+
+  public BingyangShape(){
+    super();
+    this.color = new java.awt.Color(100,100,100,100);
+    this.borderColor = new java.awt.Color(100*(int)Math.random() + 50*(int)Math.random(), 100*(int)Math.random() + 50*(int)Math.random(), 100*(int)Math.random() + 50*(int)Math.random(), 100*(int)Math.random() + 50*(int)Math.random());
   }
 
-  public void keepOnBoard(){       //the new keepOnBoard method, the circles would stop once they hit the border of the panel
+  public void keepOnBoard(){
     if (this.x < this.radius) {
       // it went off the left edge! do something!
       this.vx = 0;
@@ -29,6 +31,7 @@ public class BingyangShape extends CircleShape {
       this.vy = 0;
       this.y = CircleShape.boardHeight-this.radius;
     }
+    super.keepOnBoard();
   }
 
 

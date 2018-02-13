@@ -39,9 +39,9 @@ public class DrawingModel {
 
       c = new JosephCircle();
       this.add(c);
-//
+
 			//TODO: Person #2 circle extension
-			c = new BingyangCircle();
+			c = new BingyangShape();
 	  	this.add(c);
 
 			//TODO: Person #3 circle extension
