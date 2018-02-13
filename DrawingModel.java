@@ -44,8 +44,8 @@ public class DrawingModel {
 			c = new BingyangShape();
 
 			//TODO: Person #3 circle extension
-			// c = new CircleShape();
-    	// this.add(c);
+			c = new StevenCircle();
+			this.add(c);
 
 			//TODO: Person #4 circle extension
 			// c = new CircleShape();
