@@ -39,9 +39,18 @@ public class DrawingModel {
 
       c = new JosephCircle();
       this.add(c);
+<<<<<<< HEAD
 
 			//TODO: Person #2 circle extension
 			c = new BingyangShape();
+||||||| merged common ancestors
+//
+			//TODO: Person #2 circle extension
+			c = new BingyangCircle();
+=======
+//
+			c = new BingyangShape(500*Math.random(), 500*Math.random(), 10 + (int)(40*Math.random()));
+>>>>>>> 9ed0c852389ccee75e3e891816522b398c366276
 	  	this.add(c);
 
 			//TODO: Person #3 circle extension
