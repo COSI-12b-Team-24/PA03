@@ -47,6 +47,10 @@ public class DrawingModel {
 			//TODO: Person #3 circle extension
 			c = new StevenCircle();
 			this.add(c);
+			
+			Color green= new Color(0,153,0);
+			c=new AerionnaCircle(green);
+			this.add(c);
 
 			//TODO: Person #4 circle extension
 			// c = new CircleShape();
